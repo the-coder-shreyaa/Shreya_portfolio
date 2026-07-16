@@ -78,7 +78,7 @@ img{
     border:1px solid #334155;
 }
 
-.project-card h3{.project-list{
+.project-list{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     gap:20px;
@@ -99,13 +99,7 @@ img{
 .project-card p{
     font-size:16px;
 }
-    color:#38bdf8;
-    margin-bottom:10px;
-}
 
-.project-card p{
-    font-size:16px;
-}
 
 .project-btn{
     display:inline-block;
