@@ -1,158 +1,477 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070914">
+<meta name="description" content="Shreya Mishra | Data Science Student & Developer">
+<title>Shreya Mishra | Developer Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="hero">
 
-    <div class="hero-text">       
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+<div class="grid-bg"></div>
 
-        <h1>Hello I'm Shreya Mishra</h1>
+<header>
+<nav class="container navbar">
+<a href="#home" class="logo">SHREYA<span>.</span></a>
+<button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
 
-        <p class="tagline"> Data Science Student | Machine Learning Enthusiast</p>
-
-        <h2>About Me</h2>
-
-        <p>
-            I am Shreya Mishra, a B.Tech Data Science student with a strong interest in
-            Machine Learning, Data Science and Web Development. I enjoy building
-            practical projects and turning ideas into useful solutions.
-        </p>
-
-        <p>
-            I have worked on projects involving Python, Machine Learning, Computer Vision
-            and Data Analysis. I am continuously improving my technical skills and
-            exploring new technologies.
-        </p>
-
-        <p>
-            Along with academics, I am also an NCC Air Wing cadet, which has helped me
-            develop discipline, leadership and a strong sense of responsibility.
-        </p>
-
-    </div>
-
-    <img src="photo.jpeg" alt="Shreya Mishra">
-
+<div class="nav-links" id="navLinks">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#journey">Journey</a>
+<a href="#education">Education</a>
+<a href="#contact" class="nav-contact">Contact ↗</a>
 </div>
-<div class="skills">
+</nav>
+</header>
 
+<main>
 
-<h2>My Skills</h2>
-<ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
-        <li>PYTHON</li>
-        <li>MACHINE LEARNING</li>
-        <li>AI</li>
-        <li>DSA</li>
-</ul>
+<!-- HERO -->
+<section class="hero container" id="home">
 
+<div class="hero-content reveal">
+<div class="eyebrow">
+<span class="status-dot"></span>
+DATA SCIENCE STUDENT & DEVELOPER
 </div>
 
-<div class="projects">
+<h1>
+Building<br>
+<span class="gradient-text">Ideas Into</span><br>
+Digital Reality.
+</h1>
 
-    <h2>My Projects</h2>
+<p>
+Hi, I'm <strong>Shreya Mishra</strong> — a B.Tech Data Science student
+passionate about programming, artificial intelligence, machine learning
+and building meaningful digital experiences.
+</p>
 
-    <div class="project-list">
-
-    <div class="project-card">
-        <h3>SkillDrop</h3>
-        <p>Micro Internship Platform</p>
-        <a href="https://github.com/the-coder-shreyaa/skilldrop" target="_blank"   class="project-b tn">View Project</a>
-    </div>
-
-    <div class="project-card"> 
-        <h3>Food Delivery Prediction</h3>
-        <p>Machine Learning Project</p>
-        <a href="https://github.com/the-coder-shreyaa/Food_Delivery_Prediction-" target="_blank " class="project-btn">View Project</a>
-    </div>
-
-    <div class="project-card">
-        <h3>Eye Blink Face Detection</h3>
-        <p>Computer Vision Project</p>
-        <a href="https://github.com/the-coder-shreyaa/Eye_Blinking_System" target="_blank "    class="project-btn">View Project</a>
-    </div>
-
-    <div class="project-card">
-        <h3>Face Recognition</h3>
-        <p>Image Processing Project</p>
-        <a href="https://github.com/the-coder-shreyaa/Face-Detection-Using-OpenCV-Python" target="_blank "  class="project-btn">View Project</a>
-    </div>
-
-    
-
-    <div class="project-card">
-        <h3>Streamlit Web Application</h3>
-        <p>Python Web Application</p>
-        <a href="https://github.com/the-coder-shreyaa/streamlit-image-filter-app" target="_blank "  class="project-btn">View Project</a>
-    </div>
-
-    <div class="project-card">
-        <h3>Expense Tracker</h3>
-        <p>Python GUI Project</p>
-        <a href="https://github.com/the-coder-shreyaa/Expense-tracker"target="_blank " class="project-btn">View Project</a>
-    </div>
-
-    <div class="project-card">
-        <h3>Live Camera</h3>
-        <p>Python GUI Project</p>
-        <a href="https://github.com/the-coder-shreyaa/Live_Camera_Python" target="_blank "class="project-btn">View Project</a>
-    </div>
-
-    
-
-    <div class="project-card">
-        <h3>Calculator</h3>
-        <p>Python GUI Project</p>
-        <a href="https://github.com/the-coder-shreyaa/Tkinter-Calculator" target="_blank "class="project-btn">View Project</a>
-    </div>
-
-    <div class="project-card">
-        <h3>Rock Paper Scissors</h3>
-        <p>Python Game</p>
-        <a href="https://github.com/the-coder-shreyaa/Rock_paper_scissor_game" target="_blank "class="project-btn">View Project</a>
-    </div>
-
-    <div class="project-card">
-        <h3>Tic Tac Toe</h3>
-        <p>Python Game</p>
-        <a href="https://github.com/the-coder-shreyaa/Tic-toe-game-"target="_blank " class="project-btn">View Project</a>
-    </div>
-
-</div>
-    <a href="https://github.com/the-coder-shreyaa" target="_blank">View GitHub</a>
-
+<div class="hero-buttons">
+<a href="#projects" class="btn btn-primary">Explore Projects ↗</a>
+<a href="#contact" class="btn btn-outline">Let's Connect</a>
 </div>
 
-<div class="contact">
-    <h2>Contact Me</h2>
-    <p>Let's connect and work together !</p>
-    <a href="mail to: shreyamishra40757@gmail.com" class="project-btn">
-        Email Me
-    </a>
-
-    <a href="https://www.linkedin.com/in/shreya-mishra-96aa99314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="project-btn">
-        linkedin
-    </a>
-
-    <a href="https://github.com/the-coder-shreyaa" target="_blank" class="project-btn">
-    GitHub
-</a>
-    
+<div class="hero-socials">
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+<a href="https://www.linkedin.com/in/shreya-mishra-96aa99314" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<a href="mailto:shreyamishra99881@gmail.com">Email ↗</a>
 </div>
+</div>
+
+<!-- ORIGINAL ORBIT DESIGN -->
+<div class="hero-visual reveal">
+<div class="orbit orbit-one"></div>
+<div class="orbit orbit-two"></div>
+<div class="orbit-core"></div>
+
+<div class="floating-tag tag-python">Python</div>
+<div class="floating-tag tag-ai">AI / ML</div>
+<div class="floating-tag tag-code">C++</div>
+
+<div class="code-window tilt-card">
+<div class="window-top">
+<div class="window-dots">
+<span></span><span></span><span></span>
+</div>
+<span>shreya.py</span>
+</div>
+
+<div class="code-content">
+<p><span class="code-purple">class</span> <span class="code-blue">Developer</span>:</p>
+<p class="indent"><span class="code-purple">def</span> <span class="code-yellow">__init__</span>(self):</p>
+<p class="indent2">self.name = <span class="code-green">"Shreya"</span></p>
+<p class="indent2">self.field = <span class="code-green">"Data Science"</span></p>
+<p class="indent2">self.focus = [</p>
+<p class="indent3"><span class="code-green">"AI & ML"</span>,</p>
+<p class="indent3"><span class="code-green">"Development"</span>,</p>
+<p class="indent3"><span class="code-green">"Problem Solving"</span></p>
+<p class="indent2">]</p>
+<p class="indent"><span class="code-purple">def</span> <span class="code-yellow">build</span>(self):</p>
+<p class="indent2"><span class="code-purple">return</span> <span class="code-green">"Keep Learning & Creating"</span></p>
+<p class="terminal-line"><span class="terminal-dot"></span> Ready to build something amazing...</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="section container" id="about">
+
+<div class="section-heading reveal">
+<span class="section-label">01 / ABOUT ME</span>
+<h2>More Than Just <span class="gradient-text">Code.</span></h2>
+<p>A little introduction about my journey and interests.</p>
+</div>
+
+<div class="about-grid">
+
+<div class="photo-card glass-card reveal">
+<div class="photo-frame">
+<img src="photo.jpeg" alt="Shreya Mishra">
+</div>
+<h3>Shreya Mishra</h3>
+<p>Data Science Student | Developer</p>
+<span class="location-text">📍 Bhopal, India</span>
+</div>
+
+<div class="about-info reveal">
+
+<div class="glass-card about-description">
+<h3>Hello, I'm Shreya! 👋</h3>
+<p>
+I'm pursuing B.Tech in Computer Science and Data Science at
+Oriental Institute of Science & Technology, Bhopal.
+</p>
+<p>
+I enjoy exploring new technologies, solving programming problems
+and developing projects that combine creativity with technology.
+I'm continuously learning and improving my development skills.
+</p>
+</div>
+
+<div class="stats-grid">
+<div class="stat-card glass-card">
+<h3>82%</h3>
+<p>Class 10th</p>
+</div>
+<div class="stat-card glass-card">
+<h3>87%</h3>
+<p>Class 12th PCM</p>
+</div>
+<div class="stat-card glass-card">
+<h3>150+</h3>
+<p>LeetCode Problems</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section class="section container" id="skills">
+
+<div class="section-heading reveal">
+<span class="section-label">02 / MY EXPERTISE</span>
+<h2>Technical <span class="gradient-text">Arsenal.</span></h2>
+<p>Technologies and concepts I'm learning and working with.</p>
+</div>
+
+<div class="skills-grid">
+
+<div class="skill-card glass-card reveal"><span class="skill-icon">C</span><h3>C / C++</h3><p>Programming Languages</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">⌘</span><h3>DSA</h3><p>Data Structures & Algorithms</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">🐍</span><h3>Python</h3><p>Programming & Problem Solving</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">OOP</span><h3>OOPs</h3><p>Object Oriented Programming</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">▤</span><h3>DBMS & SQL</h3><p>Database Concepts</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">⚙</span><h3>Operating Systems</h3><p>Core Computer Science</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">🌐</span><h3>HTML / CSS / JS</h3><p>Frontend Development</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">🤖</span><h3>Machine Learning</h3><p>Predictive Models & Data</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">∑</span><h3>NumPy & Pandas</h3><p>Data Analysis</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">◉</span><h3>OpenCV</h3><p>Computer Vision</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">▣</span><h3>Streamlit</h3><p>Python Web Applications</p></div>
+<div class="skill-card glass-card reveal"><span class="skill-icon">⑂</span><h3>Git & GitHub</h3><p>Version Control</p></div>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section container" id="projects">
+
+<div class="section-heading reveal">
+<span class="section-label">03 / SELECTED WORK</span>
+<h2>Things I've <span class="gradient-text">Built.</span></h2>
+<p>Ideas, experiments and applications built through learning.</p>
+</div>
+
+<div class="projects-grid">
+
+<article class="project-card glass-card reveal">
+<div class="project-number">01 / FEATURED</div>
+<div class="project-icon">🛍️</div>
+<span class="project-type">AI · ORIGINAL IDEA</span>
+<h3>BHARAT BAZAAR AI</h3>
+<p>An AI-powered product discovery concept designed to make shopping searches more intuitive and accessible.</p>
+<div class="project-tags"><span>Python</span><span>AI</span><span>Web App</span></div>
+<a href="https://github.com/the-coder-shreyaa/BHARAT_BAZAAR_AI" target="_blank" rel="noopener noreferrer" class="project-link">Explore Project ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">02 / FEATURED</div>
+<div class="project-icon">💡</div>
+<span class="project-type">ORIGINAL IDEA · APPLICATION</span>
+<h3>SkillDrop</h3>
+<p>A self-initiated app idea focused on resume and skill-related solutions, developed as an independent project.</p>
+<div class="project-tags"><span>App</span><span>Innovation</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">03</div>
+<div class="project-icon">🍔</div>
+<span class="project-type">Machine Learning</span>
+<h3>Food Delivery Prediction</h3>
+<p>A machine learning project focused on exploring food delivery data and prediction.</p>
+<div class="project-tags"><span>Python</span><span>ML</span><span>Pandas</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">04</div>
+<div class="project-icon">👁️</div>
+<span class="project-type">Computer Vision</span>
+<h3>Face Detection</h3>
+<p>A computer vision project exploring face detection using OpenCV and Haarcascade.</p>
+<div class="project-tags"><span>Python</span><span>OpenCV</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">05</div>
+<div class="project-icon">👀</div>
+<span class="project-type">Computer Vision</span>
+<h3>Eye Blink Detection</h3>
+<p>An experimental computer vision project focused on eye blink detection.</p>
+<div class="project-tags"><span>Python</span><span>OpenCV</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">06</div>
+<div class="project-icon">💰</div>
+<span class="project-type">Python Application</span>
+<h3>Expense Tracker</h3>
+<p>A simple application project for recording and managing expenses.</p>
+<div class="project-tags"><span>Python</span><span>Logic</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">07</div>
+<div class="project-icon">🖼️</div>
+<span class="project-type">Web Application</span>
+<h3>Streamlit Image Filter</h3>
+<p>An interactive image filtering application built using Python tools.</p>
+<div class="project-tags"><span>Python</span><span>Streamlit</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">08</div>
+<div class="project-icon">💬</div>
+<span class="project-type">Python</span>
+<h3>Python Chatbot</h3>
+<p>A beginner-friendly chatbot project exploring conversational programming.</p>
+<div class="project-tags"><span>Python</span><span>Logic</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">09</div>
+<div class="project-icon">🧮</div>
+<span class="project-type">GUI Application</span>
+<h3>Calculator GUI</h3>
+<p>A graphical calculator application designed to perform basic mathematical operations.</p>
+<div class="project-tags"><span>Python</span><span>GUI</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">10</div>
+<div class="project-icon">🎮</div>
+<span class="project-type">Game Development</span>
+<h3>Tic Tac Toe</h3>
+<p>A classic two-player game project built to practice programming concepts.</p>
+<div class="project-tags"><span>Programming</span><span>Game Logic</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">11</div>
+<div class="project-icon">✊</div>
+<span class="project-type">Game Development</span>
+<h3>Rock Paper Scissors</h3>
+<p>An interactive game project using conditional statements and programming logic.</p>
+<div class="project-tags"><span>Python</span><span>Game Logic</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">12</div>
+<div class="project-icon">📊</div>
+<span class="project-type">Data Science</span>
+<h3>Iris Data Cleaning</h3>
+<p>A data preprocessing project involving missing values, outliers and dataset analysis.</p>
+<div class="project-tags"><span>Python</span><span>Pandas</span><span>Data Cleaning</span></div>
+<a href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer" class="project-link">Explore on GitHub ↗</a>
+</article>
+
+<article class="project-card glass-card reveal">
+<div class="project-number">13</div>
+<div class="project-icon">🌐</div>
+<span class="project-type">Web Development</span>
+<h3>Personal Portfolio</h3>
+<p>A personal developer portfolio showcasing projects, technical skills and learning journey.</p>
+<div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+<a href="https://github.com/the-coder-shreyaa/Shreya_portfolio" target="_blank" rel="noopener noreferrer" class="project-link">Explore Portfolio ↗</a>
+</article>
+
+</div>
+</section>
+
+<!-- JOURNEY -->
+<section class="section container" id="journey">
+
+<div class="section-heading reveal">
+<span class="section-label">04 / MY JOURNEY</span>
+<h2>Learning. Growing. <span class="gradient-text">Exploring.</span></h2>
+<p>Experiences and activities beyond everyday coding.</p>
+</div>
+
+<div class="journey-grid">
+
+<div class="journey-card glass-card reveal">
+<span class="journey-icon">🏆</span>
+<div>
+<span class="project-type">HACKATHON</span>
+<h3>Smart India Hackathon 2026</h3>
+<p>Participated in SIH 2026, exploring real-world problem statements and technology-driven solutions.</p>
+</div>
+</div>
+
+<div class="journey-card glass-card reveal">
+<span class="journey-icon">💻</span>
+<div>
+<span class="project-type">TECH COMMUNITY</span>
+<h3>DevFest Bhopal</h3>
+<p>Attended a technology event to explore developer communities and emerging technologies.</p>
+</div>
+</div>
+
+<div class="journey-card glass-card reveal">
+<span class="journey-icon">✈️</span>
+<div>
+<span class="project-type">NCC AIR WING</span>
+<h3>NCC Cadet</h3>
+<p>Learning discipline, teamwork, leadership and aviation-related activities through NCC Air Wing.</p>
+</div>
+</div>
+
+<div class="journey-card glass-card reveal">
+<span class="journey-icon">📜</span>
+<div>
+<span class="project-type">LEARNING & TRAINING</span>
+<h3>Technical Certifications</h3>
+<p>Exploring cybersecurity, machine learning and practical development through training and projects.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section container" id="education">
+
+<div class="section-heading reveal">
+<span class="section-label">05 / ACADEMIC BACKGROUND</span>
+<h2>My <span class="gradient-text">Education.</span></h2>
+<p>Academic journey and qualifications.</p>
+</div>
+
+<div class="education-grid" style="
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:24px;
+width:100%;
+">
+
+<div class="education-card glass-card reveal" style="
+padding:28px;
+border-radius:18px;
+border:1px solid rgba(130,110,255,0.25);
+background:rgba(255,255,255,0.04);
+">
+<span class="project-icon">🎓</span>
+<span class="project-type">UNDERGRADUATE</span>
+<h3>B.Tech – Data Science / CSDS</h3>
+<p>Oriental Institute of Science & Technology, Bhopal.</p>
+<p><strong>Currently Pursuing</strong></p>
+</div>
+
+<div class="education-card glass-card reveal" style="
+padding:28px;
+border-radius:18px;
+border:1px solid rgba(130,110,255,0.25);
+background:rgba(255,255,255,0.04);
+">
+<span class="project-icon">📘</span>
+<span class="project-type">CLASS XII</span>
+<h3>Senior Secondary</h3>
+<p>Physics, Chemistry & Mathematics</p>
+<p><strong>87%</strong></p>
+</div>
+
+<div class="education-card glass-card reveal" style="
+padding:28px;
+border-radius:18px;
+border:1px solid rgba(130,110,255,0.25);
+background:rgba(255,255,255,0.04);
+">
+<span class="project-icon">📚</span>
+<span class="project-type">CLASS X</span>
+<h3>Secondary School</h3>
+<p>Academic Qualification</p>
+<p><strong>82%</strong></p>
+</div>
+
+</div>
+</section>
+
+<!-- CONTACT: LAST SECTION -->
+<section class="section container" id="contact">
+
+<div class="contact-box glass-card reveal">
+<span class="section-label">06 / GET IN TOUCH</span>
+<h2>Have an Idea? Let's <span class="gradient-text">Connect.</span></h2>
+<p>
+I'm always interested in learning, collaborating and exploring
+opportunities in technology.
+</p>
+
+<div class="contact-buttons">
+<a class="btn btn-primary" href="mailto:shreyamishra99881@gmail.com">✉ Email Me</a>
+<a class="btn btn-outline" href="https://www.linkedin.com/in/shreya-mishra-96aa99314" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<a class="btn btn-outline" href="https://github.com/the-coder-shreyaa" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+</div>
+
+<p class="contact-email">shreyamishra99881@gmail.com</p>
+</div>
+</section>
+
+</main>
 
 <footer>
-    <p>© 2026 Shreya Mishra. All Rights Reserved.</p>
+<div class="container footer-content">
+<a href="#home" class="logo">SHREYA<span>.</span></a>
+<p>Designed & Built by Shreya Mishra © <span id="year"></span></p>
+<a href="#home">Back to top ↑</a>
+</div>
 </footer>
 
-
+<script src="script.js"></script>
 </body>
 </html>
-
-
